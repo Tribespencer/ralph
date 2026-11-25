@@ -8,8 +8,8 @@ description: Installs Ralph, a desktop app that drafts replies to your unread Gm
 Publish the app in `assets/ralph.html` as an Artifact in the person's own account, so it runs on their own connectors and their own Claude.
 
 ## Steps
-1. Check the Gmail connector is connected. If it is missing, say how to add it (Settings, then Connectors, then Gmail) and publish anyway; the app shows its own setup screen.
-2. Copy `assets/ralph.html` into the working directory unchanged. Read the whole file first. Don't edit, restyle or "improve" it.
+1. Check the Gmail connector is connected. If it is missing, say how to add it (Plugins in the left sidebar, then Connectors, then Gmail, then Add) and publish anyway; the app shows its own setup screen.
+2. Copy `assets/ralph.html` into the working directory unchanged, with one `cp` command. If the person is asked to allow the command, tell them it only copies the app file. Read the whole file first. Don't edit, restyle or "improve" it.
 3. Publish it with the Artifact tool: `file_path` the copied file, `icon` "mail", `description` "Drafts replies to your unread email in your voice and sends one only when you click Send.", and `capabilities` exactly:
    ```json
    {"desktop": {}, "mcp": {"servers": [{"server": "Gmail", "tools": ["search_threads", "get_thread", "reply", "unlabel_thread"]}]}, "sample": {}, "db": {}, "user": {}}

@@ -18,7 +18,7 @@ It is free. I made it with Claude. It is not made by Anthropic or Google.
 1. **Get the file.** Click here: **[Download ralph-skill.zip](https://github.com/Tribespencer/ralph/releases/latest/download/ralph-skill.zip)**. It goes to your Downloads folder. Don't open it.
 2. **Give it to Claude.** Open the Claude app. Click **Plugins** on the left. Click **Add**, then **Upload plugin**. Drag the file in. Click **Upload**.
 3. **Connect Gmail.** On the same Plugins page, click **Connectors**. Find **Gmail**, click **Add**, and sign in to Google. If Gmail is already there, skip this.
-4. **Ask for Ralph.** Click **New**. Type `Install Ralph` and press Enter. Wait about a minute. Claude makes the app.
+4. **Ask for Ralph.** Click **New**. Type `Install Ralph` and press Enter. If a box says **Claude wants to run a command**, click **Allow once**. Wait about a minute. Claude makes the app.
 5. **Put it on your desktop.** Right-click the app Claude made. Click **Install as app**. Click **Install**.
 
 Now open Ralph like any other app and click **Get started**.
